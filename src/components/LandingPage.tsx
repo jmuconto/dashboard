@@ -110,6 +110,52 @@ export default function LandingPage({ onStart }: LandingPageProps) {
           </div>
         </section>
 
+        <section id="about" className="py-24 bg-white dark:bg-slate-900">
+          <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
+            <div className="relative aspect-square rounded-2xl overflow-hidden shadow-xl">
+              <div className="absolute inset-0 bg-gradient-to-br from-blue-600 to-blue-900 flex items-center justify-center p-12 text-white">
+                <div className="space-y-6 text-center">
+                  <div className="w-20 h-20 bg-white/10 backdrop-blur-md rounded-full flex items-center justify-center mx-auto">
+                    <ShieldCheck className="w-10 h-10 text-white" />
+                  </div>
+                  <h3 className="text-2xl font-bold">A Nossa Missão</h3>
+                  <p className="text-blue-100 leading-relaxed">
+                    Transformar dados complexos em clareza estratégica para o crescimento de Moçambique.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <span className="text-blue-600 font-semibold tracking-wider text-xs uppercase">Sobre o DashOne</span>
+              <h2 className="mt-4 text-4xl font-bold text-slate-900 dark:text-white leading-tight">Decisões Inteligentes baseadas em Dados Reais.</h2>
+              <p className="mt-6 text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
+                O DashOne é um serviço de geração de painéis de auxílio à tomada de decisões com base em dados compilados. 
+                Nascemos da necessidade de simplificar a gestão empresarial em Moçambique, oferecendo uma visão 360º da sua operação.
+              </p>
+              <div className="mt-10 space-y-6">
+                <div className="flex gap-4">
+                  <div className="w-10 h-10 rounded-full bg-blue-50 dark:bg-blue-900/20 flex items-center justify-center shrink-0">
+                    <Zap className="w-5 h-5 text-blue-600" />
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-slate-900 dark:text-white">Compilação Automática</h4>
+                    <p className="text-sm text-slate-500">Agregamos dados de múltiplas fontes para uma visão unificada.</p>
+                  </div>
+                </div>
+                <div className="flex gap-4">
+                  <div className="w-10 h-10 rounded-full bg-emerald-50 dark:bg-emerald-900/20 flex items-center justify-center shrink-0">
+                    <BarChart3 className="w-5 h-5 text-emerald-600" />
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-slate-900 dark:text-white">Visualização Estratégica</h4>
+                    <p className="text-sm text-slate-500">Gráficos desenhados para destacar o que realmente importa.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Trust Section */}
         <section className="bg-slate-900 py-24">
           <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-12">

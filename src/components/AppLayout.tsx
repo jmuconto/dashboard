@@ -8,7 +8,8 @@ import {
   LogOut, 
   Bell, 
   Search,
-  LayoutDashboard
+  LayoutDashboard,
+  ShieldCheck
 } from 'lucide-react';
 
 import DateRangePicker, { DateRange } from './ui/DateRangePicker';
@@ -27,6 +28,7 @@ const MENU_ITEMS = [
   { id: 'academic', label: 'Desempenho Académico', icon: GraduationCap },
   { id: 'promoters', label: 'Equipa de Campo', icon: Users },
   { id: 'agile', label: 'Inovação e Ágil', icon: Zap },
+  { id: 'about', label: 'Sobre a Plataforma', icon: ShieldCheck },
 ];
 
 export default function AppLayout({ children, activeTab, onTabChange, onLogout, dateRange, onDateRangeChange }: AppLayoutProps) {
