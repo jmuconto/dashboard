@@ -2,6 +2,8 @@ import { Bar, Pie } from 'react-chartjs-2';
 import { StatCard, Card } from '../ui/Layout';
 import { MapPin, UserCheck, TrendingUp, Search, Filter } from 'lucide-react';
 import { DateRange } from '../ui/DateRangePicker';
+import promoter1 from '../../assets/images/avatar_promoter_1_1790979883558.jpg';
+import promoter2 from '../../assets/images/avatar_promoter_2_1790979895779.jpg';
 
 const PROMOTERS = [
   { 
@@ -10,7 +12,7 @@ const PROMOTERS = [
     visits: 45, 
     revenue: '120.500', 
     status: 'Em Rota',
-    avatar: "/src/assets/images/avatar_promoter_1_1790979883558.jpg"
+    avatar: promoter1
   },
   { 
     name: 'Célia', 
@@ -18,7 +20,7 @@ const PROMOTERS = [
     visits: 38, 
     revenue: '98.200', 
     status: 'Em Rota',
-    avatar: "/src/assets/images/avatar_promoter_2_1790979895779.jpg"
+    avatar: promoter2
   },
   { 
     name: 'Rofino', 

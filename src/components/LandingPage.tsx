@@ -1,13 +1,12 @@
 import { motion } from 'framer-motion';
 import { ArrowRight, BarChart3, GraduationCap, Users, ShieldCheck, Zap } from 'lucide-react';
+import heroImage from '../assets/images/dashone_hero_cityscape_1790979872448.jpg';
 
 interface LandingPageProps {
   onStart: () => void;
 }
 
 export default function LandingPage({ onStart }: LandingPageProps) {
-  const HERO_IMAGE = "/src/assets/images/dashone_hero_cityscape_1790979872448.jpg";
-
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 selection:bg-blue-100 dark:selection:bg-blue-900">
       {/* Header */}
@@ -66,7 +65,7 @@ export default function LandingPage({ onStart }: LandingPageProps) {
               className="relative aspect-video rounded-2xl overflow-hidden shadow-2xl border border-slate-200 dark:border-slate-800"
             >
               <img 
-                src={HERO_IMAGE} 
+                src={heroImage} 
                 alt="Skyline de Maputo" 
                 className="w-full h-full object-cover"
               />
@@ -100,12 +99,6 @@ export default function LandingPage({ onStart }: LandingPageProps) {
               title="Operações de Campo"
               description="Monitorize a atividade dos promotores em Maputo, Matola e Beira em tempo real."
               color="orange"
-            />
-            <SolutionCard 
-              icon={Zap}
-              title="Engenharia Ágil"
-              description="Conformidade ISO 56002 e saúde tecnológica para sistemas C# e Elixir."
-              color="purple"
             />
           </div>
         </section>
@@ -151,26 +144,6 @@ export default function LandingPage({ onStart }: LandingPageProps) {
                     <p className="text-sm text-slate-500">Gráficos desenhados para destacar o que realmente importa.</p>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Trust Section */}
-        <section className="bg-slate-900 py-24">
-          <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-12">
-            <div>
-              <h2 className="text-3xl font-bold text-white max-w-md">O Standard para Empresas Moçambicanas Modernas.</h2>
-              <p className="mt-4 text-slate-400">Confiado por empresas líderes em Maputo Central e Matola Rio.</p>
-            </div>
-            <div className="flex gap-12 text-center">
-              <div>
-                <p className="text-4xl font-bold text-white font-mono">1.2M</p>
-                <p className="text-[10px] uppercase tracking-widest text-slate-500 mt-2 font-semibold">Transações / Dia</p>
-              </div>
-              <div>
-                <p className="text-4xl font-bold text-white font-mono">92%</p>
-                <p className="text-[10px] uppercase tracking-widest text-slate-500 mt-2 font-semibold">Taxa de Conformidade</p>
               </div>
             </div>
           </div>

@@ -27,7 +27,6 @@ const MENU_ITEMS = [
   { id: 'sales', label: 'Vendas e Finanças', icon: BarChart3 },
   { id: 'academic', label: 'Desempenho Académico', icon: GraduationCap },
   { id: 'promoters', label: 'Equipa de Campo', icon: Users },
-  { id: 'agile', label: 'Inovação e Ágil', icon: Zap },
   { id: 'about', label: 'Sobre a Plataforma', icon: ShieldCheck },
 ];
 

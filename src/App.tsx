@@ -9,7 +9,6 @@ import AppLayout from './components/AppLayout';
 import SalesDashboard from './components/dashboards/SalesDashboard';
 import AcademicDashboard from './components/dashboards/AcademicDashboard';
 import PromotersDashboard from './components/dashboards/PromotersDashboard';
-import InnovationDashboard from './components/dashboards/InnovationDashboard';
 import AboutDashboard from './components/dashboards/AboutDashboard';
 import { DateRange } from './components/ui/DateRangePicker';
 
@@ -33,7 +32,6 @@ export default function App() {
       {activeTab === 'sales' && <SalesDashboard dateRange={dateRange} />}
       {activeTab === 'academic' && <AcademicDashboard dateRange={dateRange} />}
       {activeTab === 'promoters' && <PromotersDashboard dateRange={dateRange} />}
-      {activeTab === 'agile' && <InnovationDashboard dateRange={dateRange} />}
       {activeTab === 'about' && <AboutDashboard />}
     </AppLayout>
   );
