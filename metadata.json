@@ -1,0 +1,6 @@
+{
+  "name": "DashOne",
+  "description": "Intelligent multi-domain analytics platform for the Mozambican market, covering Sales, Education, Field Teams, and Agile Engineering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
