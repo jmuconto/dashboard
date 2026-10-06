@@ -1,6 +1,6 @@
 {
-  "name": "DashOne",
-  "description": "Intelligent multi-domain analytics platform for the Mozambican market, covering Sales, Education, Field Teams, and Agile Engineering.",
+  "name": "vona 360°",
+  "description": "Plataforma inteligente de monitoramento empresarial 360 graus para o mercado moçambicano.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

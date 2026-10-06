@@ -1,6 +1,6 @@
-# DashOne — Plataforma de Business Intelligence & Desempenho para o Contexto Moçambicano 🇲🇿
+# vona 360° — Plataforma de Monitoramento Empresarial 360 para Moçambique 🇲🇿
 
-**DashOne** é uma plataforma modular de demonstração desenvolvida em um único ficheiro HTML (`index.html`) que integra múltiplos dashboards interativos em tempo real. Projetada para ambientes empresariais e institucionais em Moçambique, a ferramenta combina gráficos dinâmicos, suporte a upload de ficheiros CSV, dados fictícios parametrizados (em Meticais - MZN e métricas académicas locais) e alternância fluida entre diferentes módulos.
+**vona 360°** é uma plataforma modular de Business Intelligence projetada para ambientes empresariais em Moçambique.
 
 ---
 
@@ -50,4 +50,5 @@ Não é necessário instalar Node.js, Python ou configurar bases de dados para t
 
 1. Faça o download ou clone o repositório:
    ```bash
-   git clone [https://github.com/seu-utilizador/dashone.git](https://github.com/seu-utilizador/dashone.git)
+   git clone https://github.com/seu-utilizador/vona360.git
+   ```
